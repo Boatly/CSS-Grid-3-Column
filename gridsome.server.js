@@ -34,14 +34,15 @@ module.exports = function (api, opts) {
             evolution_1: item.fields.evolution_1,
             evolution_2: item.fields.evolution_2,
             evolution_3: item.fields.evolution_3,
-            evolution_trigger: item.fields.evolution_trigger,
+            evolution_requirement: item.fields.evolution_requirement,
             hp: item.fields.hp,
             attack: item.fields.attack,
             defense: item.fields.defense,
             special_attack: item.fields.special_attack,
             special_defense: item.fields.special_defense,
             speed: item.fields.speed,
-            image: item.fields.iamge
+            image_sm: item.fields.image_sm,
+            image_lg: item.fields.image_lg
           }
         });
       });

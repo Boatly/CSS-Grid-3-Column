@@ -6,7 +6,7 @@
       </strong>
       <nav class="nav">
         <g-link class="nav__link" to="/">Home</g-link>
-        <g-link class="nav__link" to="/pokemon">Pokemon</g-link>
+        <g-link class="nav__link" to="/poke-dex">PokéDex</g-link>
       </nav>
     </header>
     <slot/>
@@ -30,7 +30,6 @@ body {
 }
 
 .layout {
-  max-width: 760px;
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
