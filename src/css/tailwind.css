@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* TYPES */
+.poison {
+
+}
+
+.grass {
+
+}
+
+.fire{
+  
+}
+
+.water {
+
+}
+
+.bug {
+
+}
+
+.normal {
+  
+}
+
+.poison {
+
+}
+
+.electric {
+
+}
+
+.ground {
+
+}
+
+.fairy {
+
+}
+
+.fighting {
+
+}
+
+.psychic {
+
+}
+
+.rock {
+
+}
+
+.ghost {
+
+}
+
+.ice {
+
+}
+
+.flying {
+
+}
+
+.dragon {
+  
+}

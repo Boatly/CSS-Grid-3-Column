@@ -27,6 +27,7 @@ module.exports = function (api, opts) {
         contentType.addNode({
           id: item.id,
           fields: {
+            number: item.fields.number,
             name: item.fields.name,
             description: item.fields.description,
             type_1: item.fields.type_1,

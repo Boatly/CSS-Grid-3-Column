@@ -15,5 +15,16 @@ module.exports = {
         base: 'appZe1cLGkbnfFUYb',
       },
     },
+    {
+      use: 'gridsome-plugin-tailwindcss',
+      options: {
+       tailwindConfig: './tailwind.js',
+        purgeConfig: {},
+        presetEnvConfig: {},
+        shouldPurge: true,
+        shouldImport: true,
+        shouldTimeTravel: true,
+      }
+    }
   ]
 }
